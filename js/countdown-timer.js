@@ -12,15 +12,18 @@ let timer = setInterval(function() {
   let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   // display
-  document.getElementById("timer").innerHTML =
-    "<div class=\"days countdown z-depth-4\"> \
-  <div class=\"numbers\">" + days + "</div>days</div> \
-<div class=\"hours countdown z-depth-4\"> \
-  <div class=\"numbers\">" + hours + "</div>hours</div> \
-<div class=\"minutes countdown z-depth-4\"> \
-  <div class=\"numbers\">" + minutes + "</div>minutes</div> \
-<div class=\"seconds countdown z-depth-4\"> \
-  <div class=\"numbers\">" + seconds + "</div>seconds</div> \
-</div>";
+  document.getElementById("timer-days").innerHTML = days;
+  document.getElementById("timer-hours").innerHTML = hours;
+  document.getElementById("timer-minutes").innerHTML = minutes;
+  document.getElementById("timer-seconds").innerHTML = seconds;
+//     "<div class=\"days countdown z-depth-4\"> \
+//   <div class=\"numbers\">" + days + "</div>days</div> \
+// <div class=\"hours countdown z-depth-4\"> \
+//   <div class=\"numbers\">" + hours + "</div>hours</div> \
+// <div class=\"minutes countdown z-depth-4\"> \
+//   <div class=\"numbers\">" + minutes + "</div>minutes</div> \
+// <div class=\"seconds countdown z-depth-4\"> \
+//   <div class=\"numbers\">" + seconds + "</div>seconds</div> \
+// </div>";
 
 }, 1000);

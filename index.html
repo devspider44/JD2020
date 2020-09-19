@@ -12,7 +12,10 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/countdown-timer.css" />
-
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JELABSDAR2020</title>
@@ -54,11 +57,9 @@
         </nav>
       </div>
       <div class="row" style="margin-top: 90px;">
-
-        <div class="showcase container">
-  
+        <div class="showcase container ">
           <div class="row">
-            <div class="col s12 center">
+            <div class="col s12 center animate__animated animate__fadeInLeft animate__slow">
               <h1 style="margin: 0;">LEE DARWIN</h1>
               <div class="row" style="margin-bottom:0">
                 <div class="col s4"></div>
@@ -85,7 +86,24 @@
       <div class="container">
         <div class="row" style="margin-bottom:0">
           <div class="col s12 center">
-            <h3>Wedding Countdown</h3>
+            <div id="timer" >
+              <div class="days countdown z-depth-4">
+                <div id="timer-days" class="numbers">74</div>
+                days
+              </div>
+              <div class="hours countdown  z-depth-4">
+                <div id="timer-hours" class="numbers">17</div>
+                hours
+              </div>
+              <div class="minutes countdown  z-depth-4">
+                <div id="timer-minutes" class="numbers">11</div>
+                minutes
+              </div>
+              <div class="seconds countdown  z-depth-4 white-text">
+                <div id="timer-seconds"  class="numbers">59</div>
+                seconds
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -99,25 +117,7 @@
         <img src="img/jela cover 2.jpg">
       </div>
       <div class="primary-overlay valign-wrapper">
-        <div id="timer" >
-          <div class="days countdown z-depth-4">
-            <div class="numbers">74</div>
-            days
-
-          </div>
-          <div class="hours countdown  z-depth-4">
-            <div class="numbers">17</div>
-            hours
-          </div>
-          <div class="minutes countdown  z-depth-4">
-            <div class="numbers">11</div>
-            minutes
-          </div>
-          <div class="seconds countdown  z-depth-4 white-text">
-            <div class="numbers">59</div>
-            seconds
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -253,23 +253,6 @@
     </div>
   </section>
 
-  <!-- Section: Passage -->
-  <section id="gettingmarried" class="section">
-    <div class="section-passage parallax-container">
-      <div class="parallax">
-        <img src="img/jela swoosh.jpg">
-      </div>
-      <div class="primary-overlay valign-wrapper">
-        <div class="container">
-          <div class="center white-text">
-            <h3>WHEN THE TIME IS RIGHT, I, THE LORD, WILL MAKE IT HAPPEN</h2>
-              <h5>ISAIAH 60:22</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Section: Getting Married -->
   <section class="section section-getting-married">
     <div class="valign-wrapper">
@@ -289,6 +272,23 @@
 
             <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
               vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Passage -->
+  <section id="gettingmarried" class="section">
+    <div class="section-passage parallax-container">
+      <div class="parallax">
+        <img src="img/jela swoosh.jpg">
+      </div>
+      <div class="primary-overlay valign-wrapper">
+        <div class="container">
+          <div class="center white-text">
+            <h3>WHEN THE TIME IS RIGHT, I, THE LORD, WILL MAKE IT HAPPEN</h2>
+              <h5>ISAIAH 60:22</h5>
           </div>
         </div>
       </div>

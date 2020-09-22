@@ -2,9 +2,22 @@
   src: url('../fonts/poor-richard/POORICH.TTF');
   font-family: poor;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Aleo', serif;
   color: #1b313f;
+}
+
+.nav-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: rgba(27, 49, 63, 0.3);
 }
 
 .showcase h1, h2, h3, h4, h5 {
@@ -50,9 +63,7 @@ body {
   right: 0.5em;
   margin-left: -50%;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 .showcase h5:after {
   left: 0.5em;
   margin-right: -50%;
@@ -71,13 +82,18 @@ html {
 .main-header {
   /* background: url(../img/background.jpg); */
   
-  background: url(../img/jela\ cover\ 3.jpg);
-  background-size: cover;
-  background-position: center;
+  background: url(../img/main-header.jpg);
+  background-size: stre;
+  /* background-position: center; */
+  background-position: 72% 46%;
   /* min-height: 600px; */
-  min-height: 530px;
+  height: 530px;
   color: #fff;
   position: relative;
+}
+
+.main-header h1 {
+  text-shadow: 1px 1px 5px #1b313f;
 }
 
 .main-header .showcase {
@@ -118,8 +134,8 @@ html {
 
 .section-couple {
   position: relative;
-  /* background: url(../img/together\ 2.jpg); */
-  background-size: cover;
+  /* background: url(../img/together\ 2.jpg);
+  background-size: cover; */
   background-position: center;
   min-height: 160px; 
 }
@@ -190,3 +206,40 @@ html {
     min-height: 240px;
   }
 }
+
+.s5cols,
+.m5cols,
+.l5cols,
+.xl5cols {
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.row .col.s5cols {
+  width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+  .row .col.m5cols {
+    width: 20%;
+  }
+  
+}
+
+@media only screen and (min-width: 993px) {
+  .row .col.l5cols {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .row .col.xl5cols {
+    width: 20%;
+  }
+  
+  .px-0
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }

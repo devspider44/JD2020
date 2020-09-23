@@ -111,6 +111,14 @@ body {
   display: none;
 }
 
+.section__img-container img:hover{
+  transform: scale(1.15);
+
+}
+.section__img-container img{
+  
+  transition: transform 2s;
+}
 
 .main-header h1 {
   text-shadow: 1px 1px 5px #1b313f;

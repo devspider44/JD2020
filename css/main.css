@@ -194,10 +194,11 @@ body {
 }
 
 .section-couple__img--lee {
-    position: absolute;
-    width: 100%;
-    left: -28px;
-    top: -159px;
+  position: absolute;
+  width: 135%;
+  left: -90px;
+  top: -200px;
+  /* transform: scale(1.3); */
 }
 .section-couple__img--jelani {
   position: absolute;

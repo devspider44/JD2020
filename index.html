@@ -24,9 +24,11 @@
 <body id="home" class="scrollspy" style="scroll-behavior: smooth;">
   <!-- Header -->
   <header class="main-header">
-    
+    <div class="main-header--overlay show-on-small">
+
+    </div>
     <!-- Showcase -->
-    <div class="">
+    <div class="main-header__primary">
         <nav class="transparent  ">
             <div class="nav-wrapper hide-on-small-only">
               <!-- <a href="#home" class="brand-logo hide-on-med-and-down">JD2020</a> -->
@@ -35,7 +37,7 @@
               </a> -->
               <div class="row center">
                 <div class="nav-link col m5cols"><a href="#ourstory">OUR STORY</a></div>
-                <div class="nav-link col m5cols px-0">WHEN & WHERE</div>
+                <div class="nav-link col m5cols px-0">WHERE</div>
                 <div class="nav-link col m5cols">REGISTRY</div>
                 <div class="nav-link col m5cols">GALLERY</div>
                 <div class="nav-link col m5cols">MESSAGES</div>
@@ -148,9 +150,12 @@
     <div class="valign-wrapper">
       <div class="container">
         <div class="row">
-          <div class="col s12 m6 center">
-            <img src="img/lee-darwin.jpg" alt="Groom" style="max-height: 400px; "
-              class="z-depth-3 center ">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/lee-darwin.jpg" alt="Groom"
+              class="z-depth-3 section-couple__img--lee">
+            </div>
+            
             <h3 class="center">Lee Darwin</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
               vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
@@ -163,9 +168,12 @@
                 </a>
               </div>
           </div>
-          <div class="col s12 m6 center" style="overflow:hidden">
-            <img src="img/jelani.jpg" alt="Bride" style="max-height: 400px;"
-              class="z-depth-3 center ">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/jelani.jpg" alt="Bride"
+              class="z-depth-3 section-couple__img--jelani">
+            </div>
+            
             <h3 class="center">Jelani Graizelle</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
               vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
@@ -202,10 +210,13 @@
     <div class="valign-wrapper">
       <div class="container">
         <div class="row">
-          <div class="col s12 m6 center">
-            <img src="img/together 4 - slider.png" alt="Groom" style="max-height: 400px;"
-              class="z-depth-3 center responsive-img">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/our-story-1.jpg" alt="First time we met"
+              class="z-depth-3 section-couple__img--os1">
+            </div>
           </div>
+          
           <div class="col s12 m6" style="padding-left:20px">
             <span>August 02, 2014</span>
             <h4>First time we met</h4>
@@ -220,9 +231,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m6 center">
-            <img src="img/together 5 - slider.png" alt="Groom" style="max-height: 400px;"
-              class="z-depth-3 center responsive-img">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/our-story-2.jpg" alt="First time we met"
+              class="z-depth-3 section-couple__img--os2">
+            </div>
           </div>
           <div class="col s12 m6" style="padding-left:20px">
             <span>May 28, 2017</span>
@@ -238,9 +251,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m6 center">
-            <img src="img/together 6 - slider.png" alt="Groom" style="max-height: 400px;"
-              class="z-depth-3 center responsive-img">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/our-story-3.jpg" alt="First time we met"
+              class="z-depth-3 section-couple__img--os3">
+            </div>
           </div>
           <div class="col s12 m6" style="padding-left:20px">
             <span>November 13, 2019</span>
@@ -264,9 +279,11 @@
     <div class="valign-wrapper">
       <div class="container">
         <div class="row">
-          <div class="col s12 m6 center">
-            <img src="img/together 3.png" alt="Groom" style="max-height: 400px;"
-              class="z-depth-3 center responsive-img">
+          <div class="col s12 m6 section__details">
+            <div class="section__img-container">
+              <img src="img/our-story-4.jpg" alt="We're getting married"
+              class="z-depth-3 section-couple__img--os4">
+            </div>
           </div>
           <div class="col s12 m6" style="padding-left:20px">
             <span>November 28, 2020</span>
@@ -288,9 +305,9 @@
   <section id="gettingmarried" class="section">
     <div class="section-passage parallax-container">
       <div class="parallax">
-        <img src="img/jela swoosh.jpg">
+        <img src="img/passage.jpg" class="section-passage__img">
       </div>
-      <div class="primary-overlay valign-wrapper">
+      <div class="sction-passage__text">
         <div class="container">
           <div class="center white-text">
             <h3>WHEN THE TIME IS RIGHT, I, THE LORD, WILL MAKE IT HAPPEN</h2>
@@ -302,7 +319,7 @@
   </section>
 
   <!-- Section: Events -->
-  <section id="moments" class="section-slider slider">
+  <!-- <section id="moments" class="section-slider slider">
     <ul class="slides">
       <li>
         <img src="img/together 4 - slider.png" alt="">
@@ -310,7 +327,6 @@
           <h2>Gigil bear photos</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Our moments crazy fun moments together as bg gfs
           </h5>
-          <!-- <a href="#" class="btn btn-large">Learn More</a> -->
         </div>
       </li>
       <li>
@@ -319,7 +335,6 @@
           <h2>Engagement and Announcements</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">We are supported by very loving community
             family!</h5>
-          <!-- <a href="#" class="btn btn-large">Learn More</a> -->
         </div>
       </li>
       <li>
@@ -331,7 +346,7 @@
         </div>
       </li>
     </ul>
-  </section>
+  </section> -->
 
   <!-- Section: Couple Header -->
   <section class="section section-couple__header">

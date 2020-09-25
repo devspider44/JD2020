@@ -90,7 +90,7 @@ body {
 .main-header {
   /* background: url(../img/background.jpg); */
   
-  background: url(../img/main-header.jpg);
+  background: url(../img/main-header-SD.jpg);
   background-size: stre;
   /* background-position: center; */
   background-position: 72% 46%;
@@ -117,7 +117,7 @@ body {
 }
 .section__img-container img{
   
-  transition: transform 2s;
+  transition: transform 4s;
 }
 
 .main-header h1 {
@@ -339,3 +339,4 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+}

@@ -46,6 +46,16 @@ blockquote {
   letter-spacing: .1em;
 }
 
+.showcase__AND {
+  max-width: 630px;
+  float: none !important;
+  margin: auto;
+}
+
+.showcase__label {
+  margin:0;
+}
+
 /* .showcase h5 {
     width: 100%; 
    text-align: center; 
@@ -248,6 +258,7 @@ blockquote {
 
 .section__mom-box {
   overflow: hidden;
+  padding-top: 50px !important;
 }
 
 .section__mom-box img{
@@ -391,3 +402,19 @@ blockquote {
   font-weight: bold;
   margin-top:1em;
 }
+
+.registry-link {
+    word-break: break-all;
+    font-family: 'Aleo', serif;
+}
+
+.section__album-label {
+  text-align: center;
+  padding:10px 0;
+}
+
+.side-nav__icon {
+  margin-right:5px;
+}
+
+

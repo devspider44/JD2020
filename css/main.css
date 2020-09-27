@@ -41,7 +41,7 @@ blockquote {
   letter-spacing: .1em;
 }
 
-.section h1, h2, h3, h4, h5 {
+.section h1, h2, h3, h4, h5, h6 {
   font-family: poor;
   letter-spacing: .1em;
 }
@@ -56,18 +56,10 @@ blockquote {
   margin:0;
 }
 
-/* .showcase h5 {
-    width: 100%; 
-   text-align: center; 
-   border-bottom: 1px solid #000; 
-   line-height: 0.1em;
-   margin: 10px 0 20px; 
+.showcase__label--date {
+  margin:10px;
 }
 
-.showcase h5 span {
-  background:#fff; 
-    padding:0 10px; 
-} */
 
 .showcase h5{
   overflow: hidden;
@@ -138,9 +130,13 @@ blockquote {
   text-shadow: 1px 1px 5px #1b313f;
 }
 
-.main-header .showcase {
-  /* padding-top: 120px; */
+.main-header {
   max-width: 100%;
+}
+
+.showcase {
+  max-width: 100%;
+  margin-top:90px;
 }
 
 .main-header-inner {
@@ -291,9 +287,6 @@ blockquote {
   top: 50%
 }
 
-.section-podcast .primary-overlay {
-  background: rgba(112, 81, 176, 0.9);
-}
 
 .carousel-item p {
   font-size: 20px !important;
@@ -328,7 +321,20 @@ blockquote {
   width: 20%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 600px) {
+  .showcase {
+    margin-top:10px;
+
+  }
+  .main-header{
+    height: 420px;
+    
+    background-position: 72% 37%;
+  }
+  .showcase h5::before,
+  .showcase h5::after {
+    display:none;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -362,8 +368,6 @@ blockquote {
   background-position: 0% 39%;
 }
 }
-
-
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);

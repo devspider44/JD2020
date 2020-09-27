@@ -14,7 +14,7 @@ html::-webkit-scrollbar {
 body {
   font-family: 'Aleo', serif;
   color: #1b313f;
-  min-width: 500px;
+  min-width: 445px;
 }
 
 .section h1, h2, h3, h4, h5, h6 {
@@ -307,7 +307,31 @@ padding:10px 0;
   width: 20%;
 }
 
+/* body min-width: 445px*/
+@media only screen and (max-width: 445px) {
+  .sq400 {
+    width:100%;
+    height: 100%;
+  }
+  .section__details .col{
+    padding: 0;
+  }
+
+  .container--sw100 {
+    width:100%
+  }
+
+  .container--sw100 .section__details{
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  .main-header{
+    height: 420px;
+    background-position: 72% 37%;
+  }
+  
   .showcase {
     margin-top:10px;
   }
@@ -330,11 +354,6 @@ padding:10px 0;
     display: none;
   }
 
-  .main-header{
-    height: 420px;
-    
-    background-position: 72% 37%;
-  }
   .showcase h5::before,
   .showcase h5::after {
     display:none;

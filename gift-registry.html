@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
   <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
   <!--Import materialize.css-->
@@ -40,7 +41,7 @@
               <i class="fa fa-map-marker side-nav__icon"></i> WHERE</a>
           </li>
           <li>
-            <a href="gift-registry.html">
+            <a href="#">
               <i class="fa fa-gift side-nav__icon"></i> REGISTRY</a>
           </li>
           <li>
@@ -53,32 +54,24 @@
           </li>
         </ul>
         <div class="nav-wrapper hide-on-med-and-down">
-          <div class="row center ">
-            <div class="nav-link col m5cols"><a href="/index.html">OUR STORY</a></div>
-            <div class="nav-link col m5cols px-0"><a href="/where.html">WHERE</a></div>
-            <div class="nav-link col m5cols"><a href="/gift-registry.html">REGISTRY</a></div>
-            <div class="nav-link col m5cols">GALLERY</div>
-            <div class="nav-link col m5cols">MESSAGES</div>
-          </div>
+          <ul>
+            <li class="nav__link"><a href="index.html">OUR STORY</a></li>
+            <li class="nav__link"><a href="where.html">WHERE</a></li>
+            <li class="nav__link"><a href="#">REGISTRY</a></li>
+            <li class="nav__link"><a href="gallery.html">GALLERY</a></li>
+            <li class="nav__link"><a href="#">MESSAGES</a></li>
+          </ul>
         </div>
       </nav>
-      <div class="row showcase__wrapper">
-        <div class="showcase container ">
-          <div class="row">
-            <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
-              <h1 class="showcase__label hide-on-small-only">LEE DARWIN</h1>
-              <h5 class="showcase__label hide-on-med-and-up">LEE DARWIN</h5>
-              <div class="row" style="margin-bottom:0">
-                <div class="col s12 showcase__AND">
-                  <h5 class="hide-on-small-only"><span>AND</span></h5>
-                  <h6 class="hide-on-med-and-up"><span>AND</span></h6>
-                </div>
-              </div>
-              <h1 class="showcase__label hide-on-small-only">JELANI GRAIZELLE</h1>
-              <h5 class="showcase__label hide-on-med-and-up">JELANI GRAIZELLE</h5>
-              <h3 class="showcase__label hide-on-small-only">11-28-2020</h3>
-              <h6 class="showcase__label--date hide-on-med-and-up">11-28-2020</h6>
+      <div class="showcase">
+        <div class="row container">
+          <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
+            <span class="showcase__name">LEE DARWIN</span>
+            <div class="col s12 showcase__and-container">
+              <span class="showcase__and">AND</span>
             </div>
+            <span class="showcase__name">JELANI GRAIZELLE</span>
+            <span class="showcase__date">11-28-2020</span>
           </div>
         </div>
       </div>
@@ -87,18 +80,19 @@
   </header>
 
   <!-- Section: Couple Header -->
-  <section id="groomandbride" class="section section-couple__header">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h3>Gift Registry</h3>
-            <span>Please know that your virtual presence & prayers at our wedding is present enough</span>
-            <br />
-            <span>However, for friends and relatives who have been asking for gift ideas & would like to help us start
-              our new life together, we have registered for items we would love to have in our home at:</span>
-            <h5 class="registry-link">https://www.knotsandpans.com/registry/jelabsdar2020</h5>
-          </div>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>Gift Registry</h3>
+          <span>Please know that your virtual presence & prayers at our wedding is present enough</span>
+          <br />
+          <span>However, for friends and relatives who have been asking for gift ideas & would like to help us start
+            our new life together, we have registered for items we would love to have in our home at:</span>
+          <h5 class="registry-link">
+            <a
+              href="https://www.knotsandpans.com/registry/jelabsdar2020">https://www.knotsandpans.com/registry/jelabsdar2020</a>
+          </h5>
         </div>
       </div>
     </div>
@@ -114,4 +108,5 @@
     });
   </script>
 </body>
+
 </html>

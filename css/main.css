@@ -2,20 +2,13 @@
   src: url('../fonts/poor-richard/POORICH.TTF');
   font-family: poor;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
-.primary-color {
-  color:#1b313f
-}
-
 html::-webkit-scrollbar {
   display: none;
-}
-
-nav {
-  box-shadow: none;
 }
 
 body {
@@ -23,69 +16,13 @@ body {
   color: #1b313f;
 }
 
-blockquote {
-  border-left: 5px solid #1b313f;
-  }
-
-.nav-link {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.nav-link:hover {
-  background-color: rgba(27, 49, 63, 0.3);
-}
-
-.showcase h1, h2, h3, h4, h5 {
-  font-family: poor;
-  letter-spacing: .1em;
-}
-
 .section h1, h2, h3, h4, h5, h6 {
   font-family: poor;
   letter-spacing: .1em;
 }
 
-.showcase__AND {
-  max-width: 630px;
-  float: none !important;
-  margin: auto;
-}
-
-.showcase__label {
-  margin:0;
-}
-
-.showcase__label--date {
-  margin:10px;
-}
-
-
-.showcase h5{
-  overflow: hidden;
-  text-align: center;
-}
-
-.showcase h5:before,
-.showcase h5:after {
-  background-color: #ffffff;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  margin-top:-5px
-}
-
-.showcase h5:before {
-  right: 0.5em;
-  margin-left: -50%;
-}
-
-.showcase h5:after {
-  left: 0.5em;
-  margin-right: -50%;
+.primary-color {
+  color:#1b313f
 }
 
 .primary-overlay {
@@ -98,12 +35,40 @@ blockquote {
   overflow: hidden;
 }
 
+blockquote {
+  border-left: 5px solid #1b313f;
+  }
+
+nav {
+  box-shadow: none;
+}
+
+.nav__link {
+  text-decoration: underline;
+  width:20%;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: rgba(27, 49, 63, 0.3);
+}
+
+.registry-link {
+  word-break: break-all;
+  font-family: 'Aleo', serif;
+}
+
+.side-nav__icon {
+  margin-right:5px;
+}
+
 .main-header {
   background: url(../img/main-header-SD.jpg);
   background-position: 72% 46%;
   height: 530px;
   color: #fff;
   position: relative;
+  max-width: 100%;
 }
 
 .main-header--overlay {
@@ -117,71 +82,87 @@ blockquote {
   display: none;
 }
 
+.showcase {
+  font-family: poor;
+  letter-spacing: .4em;
+  max-width: 100%;
+  margin-top:90px;
+}
+
+.showcase__and-container {
+  overflow: hidden;
+  max-width: 630px;
+  float: none !important;
+  margin: auto;
+}
+
+.showcase__and {
+  font-size: 1.64rem;
+  line-height: 110%;
+  letter-spacing: .2em;
+
+}
+
+.showcase__and:before,
+.showcase__and:after {
+  background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  margin-top:-5px
+}
+
+.showcase__and:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.showcase__and:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.showcase__name {
+  font-size: 4.2rem;
+  text-shadow: 1px 1px 5px #1b313f;
+}
+
+.showcase__date {
+  display: block;
+  font-size: 2.92rem;
+}
+
+.showcase__date:before {
+  overflow: hidden;
+  text-align: center;
+}
+
 .section__img-container img:hover{
   transform: scale(1.15);
 
 }
 .section__img-container img{
-  
   transition: transform 4s;
 }
 
-.main-header h1 {
-  text-shadow: 1px 1px 5px #1b313f;
-}
-
-.main-header {
-  max-width: 100%;
-}
-
-.showcase {
-  max-width: 100%;
-  margin-top:90px;
-}
-
-.main-header-inner {
-  /* background: url(../img/background.jpg); */
-  background: url(../img/jela\ cover\ 1.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 350px;
-  color: #fff;
-}
-
-.main-header-inner .showcase {
-  padding-top: 50px;
-}
-
-.active-link {
-  color: #d847f1;
-  font-weight: bold;
-}
-
-.section-couple__header {
+.section {
   position: relative;
-  /* background: url(../img/code.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top: #333 solid 5px;
-  border-bottom: #333 solid 5px;*/
-  
-  min-height: 160px; 
-  background-size: cover;
-  background-position: center;
-}
-
-.section-couple {
-  position: relative;
-  /* background: url(../img/together\ 2.jpg);
-  background-size: cover; */
   background-position: center;
   min-height: 160px; 
 }
 
-.section-couple a {
+.section__icon {
   color:#1b313f;
   font-size: 2rem;
   margin-left:20px;
+}
+
+.section__header {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .section-couple__img:hover {
@@ -224,6 +205,10 @@ blockquote {
   top: 0px;
 }
 
+.section-os__img {
+  height: 100%;
+}
+
 .section-os__img-1 {
   position: absolute;
   width: 100%;
@@ -246,7 +231,6 @@ blockquote {
   top: 0px;
 }
 
-
 .section-passage {
   height: 400px; 
   display:flex;
@@ -254,13 +238,12 @@ blockquote {
 
 .section__mom-box {
   overflow: hidden;
-  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .section__mom-box img{
   width:100%;
 }
-
 
 .sction-passage__text{
   display:flex;
@@ -272,21 +255,23 @@ blockquote {
   background-color: #1b313f;
 }
 
-
-
-/* .section-passage__img {
-  left: 0 !important;
-} */
-
 .section-countdown {
   height: 400px; 
-  /* background: url(../img/jela\ cover\ 2.jpg); */
 }
 
 .section-slider.slider li .caption{
   top: 50%
 }
 
+.section__album-label {
+  text-align: center;
+padding:10px 0;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
 
 .carousel-item p {
   font-size: 20px !important;
@@ -324,8 +309,26 @@ blockquote {
 @media only screen and (max-width: 600px) {
   .showcase {
     margin-top:10px;
-
   }
+  .showcase__name {
+    font-size: 2.28rem;
+    line-height: 110%;
+  }
+
+  .showcase__date {
+    margin: 10px;
+    font-size: 1.64rem;
+  }
+
+  .showcase__and {
+    font-size: 1rem;
+  }
+
+  .showcase__and:before,
+  .showcase__and:after {  
+    display: none;
+  }
+
   .main-header{
     height: 420px;
     
@@ -362,11 +365,10 @@ blockquote {
 }
 
 @media only screen and (min-width: 2048px) {
-
-.main-header{
-  background-size: cover;
-  background-position: 0% 39%;
-}
+  .main-header{
+    background-size: cover;
+    background-position: 0% 39%;
+  }
 }
 
 
@@ -377,7 +379,7 @@ blockquote {
   margin:50px auto; */
   font-family:Open Sans;
   font-style:italic;
-  color: #555555;
+  color: #8d6363;
   padding:1.2em 30px 1.2em 75px;
   border-left:8px solid #78C0A8 ;
   line-height:1.6;
@@ -407,18 +409,6 @@ blockquote {
   margin-top:1em;
 }
 
-.registry-link {
-    word-break: break-all;
-    font-family: 'Aleo', serif;
-}
 
-.section__album-label {
-  text-align: center;
-  padding:10px 0;
-}
-
-.side-nav__icon {
-  margin-right:5px;
-}
 
 

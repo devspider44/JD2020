@@ -4,7 +4,7 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
   <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
   <!--Import materialize.css-->
@@ -36,7 +36,7 @@
               <i class="fa fa-home side-nav__icon"></i>OUR STORY</a>
           </li>
           <li>
-            <a href="where.html">
+            <a href="#">
               <i class="fa fa-map-marker side-nav__icon"></i> WHERE</a>
           </li>
           <li>
@@ -53,32 +53,24 @@
           </li>
         </ul>
         <div class="nav-wrapper hide-on-med-and-down">
-          <div class="row center">
-            <div class="nav-link col m5cols"><a href="/index.html">OUR STORY</a></div>
-            <div class="nav-link col m5cols px-0"><a href="/where.html">WHERE</a></div>
-            <div class="nav-link col m5cols"><a href="/gift-registry.html">REGISTRY</a></div>
-            <div class="nav-link col m5cols">GALLERY</div>
-            <div class="nav-link col m5cols">MESSAGES</div>
-          </div>
+          <ul>
+            <li class="nav__link"><a href="index.html">OUR STORY</a></li>
+            <li class="nav__link"><a href="#">WHERE</a></li>
+            <li class="nav__link"><a href="gift-registry.html">REGISTRY</a></li>
+            <li class="nav__link"><a href="gallery.html">GALLERY</a></li>
+            <li class="nav__link"><a href="#">MESSAGES</a></li>
+          </ul>
         </div>
       </nav>
       <div class="showcase">
-        <div class="container ">
-          <div class="row">
-            <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
-              <h1 class="showcase__label hide-on-small-only">LEE DARWIN</h1>
-              <h5 class="showcase__label hide-on-med-and-up">LEE DARWIN</h5>
-              <div class="row" style="margin-bottom:0">
-                <div class="col s12 showcase__AND">
-                  <h5 class="hide-on-small-only"><span>AND</span></h5>
-                  <h6 class="hide-on-med-and-up"><span>AND</span></h6>
-                </div>
-              </div>
-              <h1 class="showcase__label hide-on-small-only">JELANI GRAIZELLE</h1>
-              <h5 class="showcase__label hide-on-med-and-up">JELANI GRAIZELLE</h5>
-              <h3 class="showcase__label hide-on-small-only">11-28-2020</h3>
-              <h6 class="showcase__label--date hide-on-med-and-up">11-28-2020</h6>
+        <div class="row container">
+          <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
+            <span class="showcase__name">LEE DARWIN</span>
+            <div class="col s12 showcase__and-container">
+              <span class="showcase__and">AND</span>
             </div>
+            <span class="showcase__name">JELANI GRAIZELLE</span>
+            <span class="showcase__date">11-28-2020</span>
           </div>
         </div>
       </div>
@@ -87,24 +79,22 @@
   </header>
 
   <!-- Section: Couple Header -->
-  <section id="groomandbride" class="section section-couple__header">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h3>Plans change, hearts don't</h3>
-            <span>Out of an abundance of caution, we will exchange vows in an intimate wedding ceremony on</span>
-            <br />
-            <span>November 28, 2020 at St. Peter the Apostle Church, Apalit Pampanga.</span>
-            <br />
-            <span>While it will be a private ceremony shared only with our immediate family members, please know we are
-              thinking of you and we appreciate all of your support!</span>
-            <br /><br />
-            <span>We will still our big wedding with friends and relatives at a later date.</span>
-            <br />
-            <span>We will keep you posted and please know that we love you and we can't wait to celebrate with all of
-              you!</span>
-          </div>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>Plans change, hearts don't</h3>
+          <span>Out of an abundance of caution, we will exchange vows in an intimate wedding ceremony on</span>
+          <br />
+          <span>November 28, 2020 at St. Peter the Apostle Church, Apalit Pampanga.</span>
+          <br />
+          <span>While it will be a private ceremony shared only with our immediate family members, please know we are
+            thinking of you and we appreciate all of your support!</span>
+          <br /><br />
+          <span>We will still our big wedding with friends and relatives at a later date.</span>
+          <br />
+          <span>We will keep you posted and please know that we love you and we can't wait to celebrate with all of
+            you!</span>
         </div>
       </div>
     </div>

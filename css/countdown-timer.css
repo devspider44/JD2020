@@ -55,17 +55,17 @@
 
 .days::before  {
 
-    background-image: url('../img/cd-days-sq.jpeg');
+    background-image: url('../img/cd-days-sq1.jpeg');
 }
 
   .hours::before  {
-    background-image: url('../img/cd-hours-sq.jpeg');
+    background-image: url('../img/cd-hours-sq1.jpeg');
   }
 
   .minutes::before  {
-    background-image: url('../img/cd-mins-sq.jpeg');
+    background-image: url('../img/cd-mins-sq1.jpeg');
   }
 
   .seconds::before  {
-    background-image: url('../img/cd-sec-sq.jpeg');
+    background-image: url('../img/cd-sec-sq1.jpeg');
   }

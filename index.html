@@ -34,7 +34,7 @@
             <div class="divider"></div>
           </li>
           <li>
-            <a href="index.html">
+            <a href="#ourstory">
               <i class="fa fa-home side-nav__icon"></i>OUR STORY</a>
           </li>
           <li>
@@ -55,32 +55,24 @@
           </li>
         </ul>
         <div class="nav-wrapper hide-on-med-and-down">
-          <div class="row center ">
-            <div class="nav-link col m5cols"><a href="#ourstory">OUR STORY</a></div>
-            <div class="nav-link col m5cols px-0"><a href="/where.html">WHERE</a></div>
-            <div class="nav-link col m5cols"><a href="/gift-registry.html">REGISTRY</a></div>
-            <div class="nav-link col m5cols">GALLERY</div>
-            <div class="nav-link col m5cols">MESSAGES</div>
-          </div>
+            <ul>
+              <li class="nav__link"><a href="#ourstory">OUR STORY</a></li>
+              <li class="nav__link"><a href="/where.html">WHERE</a></li>
+              <li class="nav__link"><a href="/gift-registry.html">REGISTRY</a></li>
+              <li class="nav__link"><a href="/gallery.html">GALLERY</a></li>
+              <li class="nav__link"><a href="#">MESSAGES</a></li>
+            </ul>
         </div>
       </nav>
       <div class="showcase">
-        <div class="container">
-          <div class="row">
-            <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
-              <h1 class="showcase__label hide-on-small-only">LEE DARWIN</h1>
-              <h4 class="showcase__label hide-on-med-and-up">LEE DARWIN</h4>
-              <div class="row" style="margin-bottom:0">
-                <div class="col s12 showcase__AND">
-                  <h5 class="hide-on-small-only"><span>AND</span></h5>
-                  <h6 class="hide-on-med-and-up"><span>AND</span></h6>
-                </div>
-              </div>
-              <h1 class="showcase__label hide-on-small-only">JELANI GRAIZELLE</h1>
-              <h4 class="showcase__label hide-on-med-and-up">JELANI GRAIZELLE</h4>
-              <h3 class="showcase__label hide-on-small-only">11-28-2020</h3>
-              <h5 class="showcase__label--date hide-on-med-and-up">11-28-2020</h5>
+        <div class="row container">
+          <div class="col m12 s6 center animate__animated animate__fadeInLeft animate__slow">
+            <span class="showcase__name">LEE DARWIN</span>
+            <div class="col s12 showcase__and-container">
+              <span class="showcase__and">AND</span>
             </div>
+            <span class="showcase__name">JELANI GRAIZELLE</span>
+            <span class="showcase__date">11-28-2020</span>
           </div>
         </div>
       </div>
@@ -90,99 +82,67 @@
 
   <!-- Section: Countdown Header -->
   <section class="section">
-    <div class="container valign-wrapper">
-      <div class="row" style="margin-bottom:0">
-        <div class="col s12 center">
-          <div id="timer">
-            <div class="days countdown z-depth-4">
-              <div id="timer-days" class="numbers">74</div>
-              days
-            </div>
-            <div class="hours countdown  z-depth-4">
-              <div id="timer-hours" class="numbers">17</div>
-              hours
-            </div>
-            <div class="minutes countdown  z-depth-4">
-              <div id="timer-minutes" class="numbers">11</div>
-              minutes
-            </div>
-            <div class="seconds countdown  z-depth-4 white-text">
-              <div id="timer-seconds" class="numbers">59</div>
-              seconds
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section: Couple Header -->
-  <section id="groomandbride" class="section section-couple__header">
     <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h3>Groom & Bride</h3>
-            <p>Yes! We are tying the knot! We've created this website as a convenient and interactive way to share all
-              of the important details with you in the lead up to our wedding.</p>
-          </div>
+      <div id="timer" class="col m6 s12">
+        <div class="days countdown z-depth-4">
+          <div id="timer-days" class="numbers">74</div>
+          days
+        </div>
+        <div class="hours countdown  z-depth-4">
+          <div id="timer-hours" class="numbers">17</div>
+          hours
+        </div>
+        <div class="minutes countdown  z-depth-4">
+          <div id="timer-minutes" class="numbers">11</div>
+          minutes
+        </div>
+        <div class="seconds countdown  z-depth-4 white-text">
+          <div id="timer-seconds" class="numbers">59</div>
+          seconds
         </div>
       </div>
     </div>
   </section>
 
   <!-- Section: Couple -->
-  <section class="section section-couple">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/groom-SD.jpg" alt="Groom" class="z-depth-3 section-couple__img--groom">
-            </div>
-
-            <h3 class="center">Lee Darwin</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
-            <div class="row">
-              <a href="https://facebook.com">
-                <i class="fab fa-facebook"></i>
-              </a>
-              <a href="https://instagram.com">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
+  <section class="section">
+    <div class="row container valign-wrapper">
+      <div>
+        <div class="col s12 section__header">
+          <h3>Groom & Bride</h3>
+          <p>Yes! We are tying the knot! We've created this website as a convenient and interactive way to share all
+            of the important details with you in the lead up to our wedding.</p>
+        </div>
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/groom.jpeg" alt="Groom" class="z-depth-3 section-os__img">
           </div>
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/bride-SD.jpg" alt="Bride" class="z-depth-3 section-couple__img--bride">
-            </div>
-
-            <h3 class="center">Jelani Graizelle</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
-            <div class="row">
-              <a href="https://facebook.com">
-                <i class="fab fa-facebook"></i>
-              </a>
-              <a href="https://instagram.com">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
+          <h3 class="center">Lee Darwin</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
+          <div class="row">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook section__icon"></i>
+            </a>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram section__icon"></i>
+            </a>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section: Our Story Header -->
-  <section id="ourstory" class="section section-our-story__header">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h3>Our Story</h3>
-            <p>Our Love Story: A Testimony of God's Timing</p>
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/bride.jpeg" alt="Bride" class="z-depth-3 section-os__img">
+          </div>
+          <h3 class="center">Jelani Graizelle</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</p>
+          <div class="row">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook section__icon"></i>
+            </a>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram section__icon"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -190,114 +150,104 @@
   </section>
 
   <!-- Section: Our Story -->
-  <section class="section section-our-story">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/our-story-1.jpg" alt="First time we met" class="z-depth-3 section-os__img-1">
-              <div>
-
-              </div>
-
-            </div>
+  <section id="ourstory" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 section__header">
+          <h3>Our Story</h3>
+          <p>Our Love Story: A Testimony of God's Timing</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/our-story-1.jpg" alt="First time we met" class="z-depth-3 section-os__img-1">
           </div>
+        </div>
+        <div class="col s12 m6" style="padding-left:20px">
+          <span>August 02, 2014</span>
+          <h4>First time we met</h4>
+          <p>JELANI GRAIZELLE</p>
+          <span>My officemate (Yari) invited me to attend their Christian Life Series kick off party at Topshelf fully
+            booked in BGC.
+            There is a live band set up on stage and everyone is free to perform. Yari knows i'm into singing &
+            performing so she
+            introduced me to Lee Darwin who is responsible in listing down the names of the performers that night.
+          </span>
 
-          <div class="col s12 m6" style="padding-left:20px">
-            <span>August 02, 2014</span>
-            <h4>First time we met</h4>
-            <p>JELANI GRAIZELLE</p>
-            <span>My officemate (Yari) invited me to attend their Christian Life Series kick off party at Topshelf fully
+          <p>LEE DARWIN</p>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+          <!-- <blockquote class="otro-blockquote">
+              My officemate (Yari) invited me to attend their Christian Life Series kick off party at Topshelf fully
               booked in BGC.
               There is a live band set up on stage and everyone is free to perform. Yari knows i'm into singing &
               performing so she
               introduced me to Lee Darwin who is responsible in listing down the names of the performers that night.
-            </span>
-
-            <p>LEE DARWIN</p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
-            <!-- <blockquote class="otro-blockquote">
-                My officemate (Yari) invited me to attend their Christian Life Series kick off party at Topshelf fully
-                booked in BGC.
-                There is a live band set up on stage and everyone is free to perform. Yari knows i'm into singing &
-                performing so she
-                introduced me to Lee Darwin who is responsible in listing down the names of the performers that night.
-                <span> JELANI GRAIZELLE</span>
-              </blockquote>
-              <blockquote class="otro-blockquote primary-color">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-                vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?
-                <span> LEE DARWIN</span>
-              </blockquote> -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/our-story-2-SD.jpg" alt="First time we met" class="z-depth-3 section-os__img-2">
-            </div>
-          </div>
-          <div class="col s12 m6" style="padding-left:20px">
-            <span>May 28, 2017</span>
-            <h4>We fell in love</h4>
-            <p>JELANI GRAIZELLE</p>
-            <span>I felt assured that he will love me best, because he loves God first. And I noticed that the more I
-              get
-              closer to him, the more i got closer to God.
-            </span>
-            <p>LEE DARWIN</p>
-
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/our-story-3-SD.jpg" alt="First time we met" class="z-depth-3 section-os__img-3">
-            </div>
-          </div>
-          <div class="col s12 m6" style="padding-left:20px">
-            <span>November 13, 2019</span>
-            <h4>She said "Yes"</h4>
-            <p>JELANI GRAIZELLE</p>
-            <span>Through careful discernment and prayer, I was able to confidently respond to the easiest question I
-              have
-              ever had to answer
-            </span>
-            <p>LEE DARWIN</p>
-
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
-          </div>
+              <span> JELANI GRAIZELLE</span>
+            </blockquote>
+            <blockquote class="otro-blockquote primary-color">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?
+              <span> LEE DARWIN</span>
+            </blockquote> -->
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Section: Getting Married -->
-  <section class="section section-getting-married">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 section__details">
-            <div class="section__img-container sq400">
-              <img src="img/our-story-4-SD.jpg" alt="We're getting married" class="z-depth-3 section-os__img-4">
-            </div>
+      <div class="row">
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/os-2-sq.jpeg" alt="First time we met" class="z-depth-3 section-os__img">
           </div>
-          <div class="col s12 m6" style="padding-left:20px">
-            <span>November 28, 2020</span>
-            <h4>We are getting married</h4>
-            <p>JELANI GRAIZELLE</p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
-            <p>LEE DARWIN</p>
+        </div>
+        <div class="col s12 m6" style="padding-left:20px">
+          <span>May 28, 2017</span>
+          <h4>We fell in love</h4>
+          <p>JELANI GRAIZELLE</p>
+          <span>I felt assured that he will love me best, because he loves God first. And I noticed that the more I
+            get
+            closer to him, the more i got closer to God.
+          </span>
+          <p>LEE DARWIN</p>
 
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
-              vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/os-3.jpeg" alt="First time we met" class="z-depth-3 section-os__img">
           </div>
+        </div>
+        <div class="col s12 m6" style="padding-left:20px">
+          <span>November 13, 2019</span>
+          <h4>She said "Yes"</h4>
+          <p>JELANI GRAIZELLE</p>
+          <span>Through careful discernment and prayer, I was able to confidently respond to the easiest question I
+            have
+            ever had to answer
+          </span>
+          <p>LEE DARWIN</p>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 section__details">
+          <div class="section__img-container sq400">
+            <img src="img/os-4.jpeg" alt="We're getting married" class="z-depth-3 section-os__img">
+          </div>
+        </div>
+        <div class="col s12 m6" style="padding-left:20px">
+          <span>November 28, 2020</span>
+          <h4>We are getting married</h4>
+          <p>JELANI GRAIZELLE</p>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
+          <p>LEE DARWIN</p>
+
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, aut? Nostrum aspernatur nobis debitis
+            vitae consequatur odio esse quam culpa, amet a! Sit sed temporibus dicta totam dolor beatae quis?</span>
         </div>
       </div>
     </div>
@@ -320,58 +270,20 @@
     </div>
   </section>
 
-  <!-- Section: Events -->
-  <!-- <section id="moments" class="section-slider slider">
-    <ul class="slides">
-      <li>
-        <img src="img/together 4 - slider.png" alt="">
-        <div class="caption center-align">
-          <h2>Gigil bear photos</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Our moments crazy fun moments together as bg gfs
-          </h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/together 5 - slider.png" alt="">
-        <div class="caption left-align">
-          <h2>Engagement and Announcements</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">We are supported by very loving community
-            family!</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/together 6 - slider.png" alt="">
-        <div class="caption right-align">
-          <h2>Harana</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Filipino tradition that is still very much alive
-            today with Ligaya!</h5>
-        </div>
-      </li>
-    </ul>
-  </section> -->
-
-  <!-- Section: Moments Header-->
-  <section class="section section-couple__header">
-    <div class="valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h3>Moments</h3>
-            <p>Sharing the good times. Bearing the bad times. Laughing and living. trusting and forgiving, together
-              forever, side by side, trusting that God will lead us the way.</p>
-          </div>
+  <!-- Section: Moments -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 section__header">
+          <h3>Moments</h3>
+          <p>Sharing the good times. Bearing the bad times. Laughing and living. trusting and forgiving, together
+            forever, side by side, trusting that God will lead us the way.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Section: Moments Content -->
-  <section class="section section-moments">
-    <div class="container">
       <div class="row">
         <div class="col m4 s12 section__mom-box">
           <div class="section__img-container sq270">
-            <img src="img/m1-eng-sq.jpeg" alt="First time we met" class="z-depth-3">
+            <img src="img/m1-eng-sq1.jpeg" alt="First time we met" class="z-depth-3">
           </div>
           <div class="center">
             <h6>ENGAGEMENT PHOTOS</h6>
@@ -379,7 +291,7 @@
         </div>
         <div class="col m4 s12 section__mom-box">
           <div class="section__img-container sq270">
-            <img src="img/m2-announcement-sq.jpeg" alt="First time we met" class="z-depth-3">
+            <img src="img/m2-announcement-sq1.jpeg" alt="First time we met" class="z-depth-3">
           </div>
           <div class="center">
             <h6>ENGAGEMENT AND ANNOUNCEMENT</h6>
@@ -387,7 +299,7 @@
         </div>
         <div class="col m4 s12 section__mom-box">
           <div class="section__img-container sq270">
-            <img src="img/m3-harana-sq.jpeg" alt="First time we met" class="z-depth-3">
+            <img src="img/m3-harana-sq1.jpeg" alt="First time we met" class="z-depth-3">
           </div>
           <div class="center">
             <h6>HARANA</h6>
@@ -401,7 +313,6 @@
     <div class="footer-copyright">
       <div class="container">
         Copyright &copy; JELABSDAR 2020
-
       </div>
     </div>
   </footer>
@@ -412,19 +323,19 @@
   <script type="text/javascript" src="js/countdown-timer.js"></script>
   <script>
     $(document).ready(function () {
-      $('.carousel.carousel-slider').carousel({ fullWidth: true });
+      // $('.carousel.carousel-slider').carousel({ fullWidth: true });
       $('.button-collapse').sideNav();
       $('.modal').modal();
     });
 
     $('.parallax').parallax();
 
-    $('.slider').slider({
-      indicators: false,
-      height: 600,
-      transition: 500,
-      interval: 3000
-    });
+    // $('.slider').slider({
+    //   indicators: false,
+    //   height: 600,
+    //   transition: 500,
+    //   interval: 3000
+    // });
 
     $('.scrollspy').scrollSpy();
   </script>
